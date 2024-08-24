@@ -1,0 +1,40 @@
+Project Overview
+This repository contains three Python programs demonstrating various functionalities including image processing, email sending, and GUI-based text manipulation.
+
+1. p1.py - Object Detection in Images
+Description:
+p1.py is a Python script that performs object detection on an image using the cvlib library. It identifies common objects within the image, draws bounding boxes around them, and displays the number of detected cars.
+
+Application:
+Use Case: This script is useful for analyzing images to detect and count specific objects, such as vehicles, using pre-trained object detection models.
+Libraries Used:
+cvlib for object detection.
+OpenCV (cv2) for image processing.
+Matplotlib (plt) for displaying the results.
+
+
+
+2. p2.py - Sending Emails via Gmail SMTP
+Description:
+p2.py is a Python script that demonstrates how to send an email using Gmail's SMTP server. It uses smtplib to connect to the SMTP server, authenticate, and send a simple text email.
+
+Application:
+Use Case: This script can be used to automate email notifications or alerts. It is designed for sending plain text emails but can be extended for more complex email functionalities.
+Libraries Used:
+smtplib for sending emails.
+email.mime.text for creating email messages.
+
+
+
+
+
+
+3. p3.py - Text Encryption/Decryption GUI
+Description:
+p3.py is a Python script that provides a simple GUI application for text encryption and decryption using a basic letter-swapping algorithm. It allows users to input a message and choose to either encrypt or decrypt it.
+
+Application:
+Use Case: This script demonstrates a basic encryption/decryption mechanism with a GUI interface. It can be useful for educational purposes or as a starting point for more complex cryptographic applications.
+Libraries Used:
+tkinter for creating the GUI.
+
